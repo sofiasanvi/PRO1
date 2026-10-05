@@ -74,7 +74,7 @@ n_bootstrap = 1000
 for i in range(n_bootstrap):
   bootstrap_sample = np.random.choice(values,size=len(values),replace = True)
 ```
-To determine the error and uncertainty for variable *p* confidence intervals and a standardized error were used:
+To determine the error and uncertainty for variable *p*, a standardized error and confidence intervals were used:
 ```python
 se_p = np.std(bootstrap_p, ddof=1) #Standardized error
 ci_p = np.percentile(bootstrap_p,[2.5, 97.5]) #Confidence interval
