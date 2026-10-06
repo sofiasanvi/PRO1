@@ -18,6 +18,8 @@ Because a negative binomial distribution can account for greater variation than 
 
 Using the mean and variance of the observed data, we estimated the parameters \(n\) and \(p\) of the negative binomial distribution.
 
+The model was then evaluated using non-parametrical bootstrapping to observe the paramater *p*'s precision and stability. Non-parametrical boostrapping was used because it relies on resampling of data as opposed to data being newly generated. This allows us to be more flexible in our assumptions about the negative-binomial distribution.
+
 ## Generative model
 
 Our model is:
