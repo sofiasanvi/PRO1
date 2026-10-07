@@ -8,7 +8,7 @@
 
 ## Our approach
 
-From the dataset used in the article, we chose our random variable to be the number of different OTUs observed in each sample. OTU richness is used here as a measure of plankton diversity.
+From the dataset used in the article, we chose our random variable to be the number of different OTUs (Operational Taxonomic Units) observed in each sample. An OTU is a cluster of similar DNA sequences used to group uncultivated or unidentified organisms. OTU richness is used here as a measure of plankton diversity.
 
 We calculated the number of OTUs present in each sample and plotted these values in a histogram to examine their distribution. An OTU was considered present if its abundance was greater than zero.
 
